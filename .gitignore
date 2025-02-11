@@ -1,2 +1,44 @@
 # Ignore all Java .class files
 *.class
+# Ignore target directory (compiled files and packaged artifacts)
+target/
+
+# Ignore Maven build logs
+mvnw.log
+
+# Ignore dependency cache
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.next
+**/pom.xml.previous
+**/release.properties
+
+# Ignore Eclipse/Maven specific files
+.classpath
+.project
+.settings/
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled class files
+**/*.class
+
+# Ignore logs and temp files
+logs/
+*.log
+hs_err_pid*
+*.pid
+
+# Ignore local Maven repository (optional)
+.m2/
